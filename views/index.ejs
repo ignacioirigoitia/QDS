@@ -4,11 +4,19 @@
 
   <body>
     <%- include("partials/header") %>
-      <h1>
-        <%= title %>
-      </h1>
-      <p>Welcome to <%= title %>
-      </p>
+    <div class="container">
+      <div class="row">
+        <div class="titulo col-12">
+          <h1>
+            <%= title %>
+          </h1>
+        </div>
+        
+        <p>Welcome to <%= title %>
+        </p>
+      </div>
+    </div>
+      
       <%- include("partials/footer") %>
         <%- include("partials/scripts") %>
   </body>
