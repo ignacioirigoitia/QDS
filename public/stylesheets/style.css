@@ -18,7 +18,6 @@ ul,li {
 list-style: none;
 margin: 0;
 padding: 0;
-
 }
 
 a{
@@ -41,23 +40,54 @@ h1{
   margin-bottom: 15px;
 }
 
-.header .logo{
-  justify-content: start;
+img{
+  width: 100%;
 }
 
-.header .logo img{
-  width: 46%;
-}
-
-.header .navbar-light{
-  background-color: white;
-}
-
-.header .colapse{
+.header .secciones{
   display: flex;
-  overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
-.header .colapse button{
+.header .secciones ul li{
+  padding: 10px;
+  font-size: 40px;
+}
+
+.header .boton{
+  display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.header .boton button{
+  background-color: rgb(17, 190, 153);
+  border-color: rgb(17, 190, 153);
+  border-radius: 10px;
+  color: black;
+  font-size: 30px;
+  width: 200px;
+}
+
+.header .boton ul li a{
+  font-size: 25px;
+}
+
+.header .buscador {
+  width: 90%;
+}
+
+.header .buscador form input{
+  height: 5vh;
+  font-size: 25px;
+  color: black;
+  padding: 40px;
+}
+.header .buscador form button{
+  width: 30%;
+  background-color: rgb(17, 190, 153);
+  border-radius: 10px;
+  font-size: 30px;
+  color: black;
 }
